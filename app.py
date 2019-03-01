@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.ERROR)
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def index():
     return jsonify(
         response_type='in_channel',
