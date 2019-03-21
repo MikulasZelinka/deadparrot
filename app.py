@@ -3,7 +3,7 @@ import random
 import sys
 import uuid
 
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
