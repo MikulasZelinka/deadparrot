@@ -28,7 +28,7 @@ GIFZ = {
 @app.route('/', methods=['GET', 'POST'])
 def index():
     form_data = request.form
-    image_url = GIFZ.get(form_data.get("text", None), None) 
+    image_url = GIFZ.get(form_data.get('text', '').strip().lower(), None) 
     if not image_url:
         image_url = random.choice(list(GIFZ.values()))
     return jsonify(
