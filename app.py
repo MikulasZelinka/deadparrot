@@ -3,7 +3,7 @@ import random
 import sys
 import uuid
 
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
@@ -27,9 +27,13 @@ GIFZ = {
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
+    form_data = request.form
+    image_url = GIFZ.get(form_data.get("text", None), None) 
+    if not image_url:
+        image_url = random.choice(list(GIFZ.values()))
     return jsonify(
         response_type='in_channel',
-        text=f'{random.choice(list(GIFZ.values()))}?lul={uuid.uuid4()}',
+        text=f'{image_url}?lul={uuid.uuid4()}',
     )
 
 
