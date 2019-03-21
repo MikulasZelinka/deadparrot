@@ -27,6 +27,7 @@ GIFZ = {
     'nudge': 'https://media3.giphy.com/media/13vPE0A3DPqOcg/giphy.gif',
     'oui': 'https://i.pinimg.com/originals/af/98/59/af985985493d2763b248fa01001ecd78.gif',
     'parrot': 'https://media1.giphy.com/media/2MmETUpDuWgCs/giphy.gif',
+    'sad': 'https://media.giphy.com/media/QhCAwDXZ0BltK/giphy.gif',
     'spam': 'https://media1.giphy.com/media/RI4LTRjrVJhTskGtrb/giphy.gif',
     'walk': 'https://media2.giphy.com/media/RzKHvdYC3uds4/giphy.gif',
     'wound': 'https://media3.giphy.com/media/Tim0q7zolF3fa/giphy.gif'
