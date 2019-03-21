@@ -10,6 +10,7 @@ app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.ERROR)
 
 GIFZ = {
+    'aperol': 'https://media2.giphy.com/media/dSY9GgU0fWS8o/giphy.gif',
     'parrot': 'https://media1.giphy.com/media/2MmETUpDuWgCs/giphy.gif',
     'spam': 'https://media1.giphy.com/media/RI4LTRjrVJhTskGtrb/giphy.gif',
     'wound': 'https://media3.giphy.com/media/Tim0q7zolF3fa/giphy.gif',
