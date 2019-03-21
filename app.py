@@ -15,7 +15,8 @@ GIFZ = {
     'boo': 'https://media2.giphy.com/media/HFHTld1DUaLlu/giphy.gif',
     'cat': 'https://thumbs.gfycat.com/SpottedMinorAnnelid-size_restricted.gif',
     'different': 'https://media3.giphy.com/media/JLePNN9qrn4is/giphy.gif',
-    'football': 'https://i.makeagif.com/media/8-28-2015/DmGCH6.gif'
+    'football': 'https://i.makeagif.com/media/8-28-2015/DmGCH6.gif',
+    'fish': 'https://thumbs.gfycat.com/ElegantDiligentGreatargus-size_restricted.gif',
     'funny': 'https://i.gifer.com/Tudh.gif',
     'grannies': 'https://media2.giphy.com/media/DdRljUx9yiZP2/giphy.gif',
     'horse': 'https://thumbs.gfycat.com/CompassionateAfraidAnkolewatusi-size_restricted.gif',
