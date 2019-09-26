@@ -39,9 +39,10 @@ def index():
     query = form_data.get('text', '').strip().lower()
     
     if query == 'help':
+        keys_list = ', '.join([f'`{k}`' for k in GIFZ.keys()])
         return jsonify(
             response_type='in_channel',
-            text=f'Available options: {", ".join(["`" + k + "`" for k GIFZ.keys()])}',
+            text=f'Available options:\n{keys_list}.',
         )
     
     image_url = GIFZ.get(query, None) 
