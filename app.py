@@ -36,7 +36,15 @@ GIFZ = {
 @app.route('/', methods=['GET', 'POST'])
 def index():
     form_data = request.form
-    image_url = GIFZ.get(form_data.get('text', '').strip().lower(), None) 
+    query = form_data.get('text', '').strip().lower()
+    
+    if query == 'help':
+        return jsonify(
+            response_type='in_channel',
+            text=f'Available options: {", ".join(["`" + k + "`" for k GIFZ.keys()])}',
+        )
+    
+    image_url = GIFZ.get(query, None) 
     if not image_url:
         image_url = random.choice(list(GIFZ.values()))
     return jsonify(
