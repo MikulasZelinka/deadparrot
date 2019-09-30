@@ -12,6 +12,7 @@ app.logger.setLevel(logging.ERROR)
 GIFZ = {
     'aperol': 'https://media2.giphy.com/media/dSY9GgU0fWS8o/giphy.gif',
     'bastards': 'https://media1.giphy.com/media/tP2fZCu4K9Yac/giphy.gif',
+    'biggus': 'https://media1.giphy.com/media/7gHJozx9wLrmo/giphy.gif',
     'boo': 'https://media2.giphy.com/media/HFHTld1DUaLlu/giphy.gif',
     'cat': 'https://thumbs.gfycat.com/SpottedMinorAnnelid-size_restricted.gif',
     'coffee': 'https://media.giphy.com/media/iYmMwHYr0cn9xXqogh/giphy.gif',
