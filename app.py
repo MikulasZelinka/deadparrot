@@ -43,7 +43,7 @@ def index():
     if query == 'help':
         keys_list = ', '.join([f'`{k}`' for k in GIFZ.keys()])
         return jsonify(
-            response_type='in_channel',
+            response_type='ephemeral',
             text=f'Available options:\n{keys_list}.',
         )
     
