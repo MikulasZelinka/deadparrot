@@ -25,6 +25,7 @@ GIFZ = {
     'inquisition': 'https://media0.giphy.com/media/y5W98cY6OCudO/giphy.gif',
     'interview': 'https://media0.giphy.com/media/wi9yHmX7Sztuw/giphy.gif',    
     'invincible': 'https://media3.giphy.com/media/10M2ZnecwCMVGg/giphy.gif',
+    'mad': 'https://media2.giphy.com/media/4QFcHm63NrX0Qu3bON/giphy.gif',
     'nudge': 'https://media3.giphy.com/media/13vPE0A3DPqOcg/giphy.gif',
     'oui': 'https://i.pinimg.com/originals/af/98/59/af985985493d2763b248fa01001ecd78.gif',
     'parrot': 'https://media1.giphy.com/media/2MmETUpDuWgCs/giphy.gif',
